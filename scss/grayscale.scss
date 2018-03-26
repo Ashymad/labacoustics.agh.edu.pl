@@ -1,3 +1,4 @@
+/* vim:set softtabstop=2 shiftwidth=2 tabstop=2 expandtab: */
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
@@ -152,6 +153,7 @@ a {
     }
     .intro-text {
       font-size: 18px;
+      text-shadow: 2px 2px black;
     }
   }
   @media(min-width:768px) {
@@ -162,7 +164,7 @@ a {
         font-size: 100px;
       }
       .intro-text {
-        font-size: 22px;
+        font-size: 24px;
       }
     }
   }
@@ -205,6 +207,10 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  .download-text {
+    text-shadow: 2px 2px black;
+  }
 }
 
 #map {

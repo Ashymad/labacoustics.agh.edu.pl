@@ -1,3 +1,4 @@
+/* vim:set softtabstop=2 shiftwidth=2 tabstop=2 expandtab: */
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
@@ -143,6 +144,7 @@ a:focus, a:hover {
 
 .masthead .intro-body .intro-text {
   font-size: 18px;
+  text-shadow: 2px 2px black;
 }
 
 @media (min-width: 768px) {
@@ -154,7 +156,7 @@ a:focus, a:hover {
     font-size: 100px;
   }
   .masthead .intro-body .intro-text {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 
@@ -192,6 +194,10 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.download-section .download-text {
+  text-shadow: 2px 2px black;
 }
 
 #map {
