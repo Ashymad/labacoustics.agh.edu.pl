@@ -142,6 +142,10 @@ a:focus, a:hover {
   font-size: 50px;
 }
 
+.masthead .intro-body .brand-heading .brand-picture {
+  height: 150px;
+}
+
 .masthead .intro-body .intro-text {
   font-size: 18px;
   text-shadow: 2px 2px black;
@@ -154,6 +158,9 @@ a:focus, a:hover {
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;
+  }
+  .masthead .intro-body .brand-heading .brand-picture {
+    height: 300px;
   }
   .masthead .intro-body .intro-text {
     font-size: 24px;

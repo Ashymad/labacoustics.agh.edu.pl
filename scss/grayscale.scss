@@ -150,6 +150,9 @@ a {
     vertical-align: middle;
     .brand-heading {
       font-size: 50px;
+      .brand-picture {
+        height: 150px;
+      }
     }
     .intro-text {
       font-size: 18px;
@@ -162,6 +165,9 @@ a {
     .intro-body {
       .brand-heading {
         font-size: 100px;
+        .brand-picture {
+          height: 300px;
+        }
       }
       .intro-text {
         font-size: 24px;
